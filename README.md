@@ -1,9 +1,18 @@
-# React + Vite
+This web site is mern stack ,, this website restourant food releted , dashboard manage in this website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+this website authentication system with firebase and mongodb express 
 
-Currently, two official plugins are available:
+1 admin 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Mazza-rastourent
+admin can add product delete product and update product ,
+admin can manage all product , 
+admin can manage all booking and confirm booking and deleted booking , 
+admin can manage order admin can delete order ,
+admin can manage all user admin can any of user give admin power and admin can deleted any user ,
+admin can seen all payment history admin can delete payment 
+
+2 user
+
+user can buy product user can deleted booking only for own 
+user can payment for buy product 
+user can deleted payment history only own
