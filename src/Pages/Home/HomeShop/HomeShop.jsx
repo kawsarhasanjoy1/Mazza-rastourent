@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
 const HomeShop = () => {
   const [recipes, setRecipe] = useState([]);
-  const { user } = useContext(AuthContext);
+  const { user, loading } = useContext(AuthContext);
   useEffect(() => {
     useProduct().then((data) => {
       setRecipe(data.slice(0, 6));
     });
-  }, [user, recipes, setRecipe, useProduct]);
+  }, [user, loading, recipes, setRecipe, useProduct]);
 
   return (
     <div className=" mt-20 text-black pt-10">
